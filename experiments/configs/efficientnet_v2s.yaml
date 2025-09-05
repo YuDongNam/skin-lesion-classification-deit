@@ -1,0 +1,11 @@
+name: efficientnet_v2s
+model_name: keras/efficientnetv2-s  # placeholder note
+image_size: 224
+data_dir: data
+output_dir: experiments/outputs/efficientnet_v2s
+use_wandb: false
+
+train:
+  batch_size: 32
+  transfer_epochs: 10
+  finetune_epochs: 20

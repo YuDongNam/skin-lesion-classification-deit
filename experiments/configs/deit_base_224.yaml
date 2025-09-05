@@ -1,0 +1,12 @@
+name: deit_base_224
+model_name: facebook/deit-base-patch16-224
+image_size: 224
+data_dir: data
+output_dir: experiments/outputs/deit_base_224
+use_wandb: false
+wandb_project: skin-lesion-classification
+
+train:
+  batch_size: 32
+  transfer_epochs: 10
+  finetune_epochs: 20

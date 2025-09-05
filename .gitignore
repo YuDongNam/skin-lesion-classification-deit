@@ -1,0 +1,76 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.build/
+.dist/
+.eggs/
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+# Exclude notebooks from tracking
+notebooks/
+
+# Logs / reports
+logs/
+*.log
+wandb/
+runs/
+**/tensorboard_logs/
+**/torch_logs/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Data and large artifacts
+data/images/
+results/
+models/
+checkpoints/
+**/final_model/
+processed_images/
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.keras
+*.ckpt
+
+# Caches
+.cache/
+
+# OS-specific
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+
+# Misc
+*.tmp
+*.bak
+
+# Experiments
+experiments/outputs/
