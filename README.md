@@ -31,8 +31,8 @@
 
 ### 3.3 학습 전략
 - 2단계 학습 절차
-  - 전이학습(transfer learning): 분류기 헤드만 학습.
-  - 미세 조정(fine-tuning): 백본을 포함한 전체 파라미터 미세 조정.
+  - 선형 탐색(linear probing): 분류기 헤드만 학습.
+  - 전체 미세 조정(full fine-tuning): 백본을 포함한 전체 파라미터 미세 조정.
 - 공통 설정(대표)
   - 배치 크기: 32
   - 최적화: AdamW(Transformers 기본 설정), 혼합정밀도(fp16) 활용
